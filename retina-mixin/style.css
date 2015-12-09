@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif; }
+  body header {
+    background: #006FBE;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    position: relative; }
+  body p {
+    right: 50px;
+    top: 10px;
+    font-size: 20px;
+    position: absolute;
+    color: #fff; }
+  body #logo {
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 40px;
+    background-image: url("/images/logo.png"); }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+      body #logo {
+        background-image: url("/images/logo@2x.png");
+        background-size: 70px 40px; } }
+
+/*# sourceMappingURL=style.css.map */

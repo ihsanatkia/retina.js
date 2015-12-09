@@ -1,0 +1,29 @@
+@import	"mixins";
+
+body {
+	margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+	header{
+		background: #006FBE;
+		border-bottom: 1px solid #ccc;
+		padding: 20px 40px;
+		position: relative;
+	}
+
+	p {
+		right: 50px;
+		top: 10px;
+		font-size: 20px;
+		position: absolute;
+		color: #fff;
+
+	}
+	#logo {
+		background-repeat: no-repeat;
+		width: 70px;
+		height: 40px;
+	    @include at2x('/images/logo','png',70,40) ;
+	}
+}
+
