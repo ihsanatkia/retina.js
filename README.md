@@ -16,9 +16,9 @@ cara menggunakan
 cara penggunaan nya sangat mudah sekali download javascript retina.js  terlebih dahulu, <br>
 1. simpan library retina.js nya di folder server,<br>
 2. panggil script nya pada <br>
-<strong>
-<script type="text/javascript" src="/your_path/retina.js"></script>
-</strong>
+<pre>
+<script type="text/javascript" src="/your_path/retina.js">
+</pre>
  letakan dalam tag <head> sebelum tag penutup.
 3. sediakan image untuk resolusi yang lebih besar misal: image logo.png sediakan satu image lagi yang ukuran dan resolusinya 2x lebih besar dari ukuran asli. contoh ukuran image asal 100px x 100px, buatlah image dengan ukuran 200px x 200px, kemudian pada penamaan image tambahkan @2x setelah nama aslinya.  
 contoh:
